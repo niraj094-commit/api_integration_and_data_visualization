@@ -2,6 +2,10 @@ import requests
 import matplotlib.pyplot as matplt
 import pandas as pd
 import seaborn as sea
+import os
+
+# To make sure this file Runs in the current folder on double clicking this file
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 sea.set_style("dark")
 matplt.rcParams["figure.figsize"] = (20,20)
